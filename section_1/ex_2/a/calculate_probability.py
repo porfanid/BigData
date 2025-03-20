@@ -2,7 +2,7 @@ import numpy as np
 from fractions import Fraction
 
 
-def calculate_probability_C_n(n, target_values):
+def calculate_probability_c_n(n, target_values):
     """
     Υπολογίζει την πιθανότητα η μεταβλητή C_n να έχει τιμές στο σύνολο target_values
     μετά από n εισαγωγές στοιχείων.
@@ -47,7 +47,7 @@ def calculate_probability_C_n(n, target_values):
 target_values = [8, 9, 10, 11]
 n = 1000
 
-fraction_prob, decimal_prob = calculate_probability_C_n(n, target_values)
+fraction_prob, decimal_prob = calculate_probability_c_n(n, target_values)
 
 print(f"Η πιθανότητα η C_{n} να έχει τιμές στο σύνολο {target_values} είναι:")
 print(f"Ως κλάσμα: {fraction_prob}")
