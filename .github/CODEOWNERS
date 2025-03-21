@@ -1,0 +1,6 @@
+# Code owners for specific folders
+section_1/ @porfanid
+section_3/ @porfanid
+Networks/ @porfanid
+# Code owners for all other files in the root folder
+/* @porfanid
