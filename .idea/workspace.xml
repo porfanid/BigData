@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1febcd35-98a0-4f3a-853c-4535317213ce" name="Changes" comment="Added code owners file to ajust the branch protection rules" />
+    <list default="true" id="1febcd35-98a0-4f3a-853c-4535317213ce" name="Changes" comment="Added a section 2 folder to test the owner">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/ex_1/a/morris_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_1/a/morris_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/ex_1/b/1/improved_morris_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_1/b/1/improved_morris_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/ex_1/b/2/compare_morris_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_1/b/2/compare_morris_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/ex_2/a/calculate_probability.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_2/a/calculate_probability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/ex_2/d/calculate_path_probabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_2/d/calculate_path_probabilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.png" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_3/ex_2/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_3/ex_2/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,34 +58,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bloom_filter.executor": "Run",
-    "Python.calculate_path_probabilities.executor": "Run",
-    "Python.calculate_probability.executor": "Run",
-    "Python.calculate_probability_optimized.executor": "Run",
-    "Python.compare_morris_methods.executor": "Run",
-    "Python.efficient_probability.executor": "Run",
-    "Python.exact_probability.executor": "Run",
-    "Python.improved_morris_counter.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.morris_counter.executor": "Run",
-    "Python.optimized_morris_counter.executor": "Run",
-    "Python.router.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/porfanid/programming/BigData",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bloom_filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculate_path_probabilities.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculate_probability.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculate_probability_optimized.executor&quot;: &quot;Run&quot;,
+    &quot;Python.compare_morris_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.efficient_probability.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exact_probability.executor&quot;: &quot;Run&quot;,
+    &quot;Python.improved_morris_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.morris_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.optimized_morris_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.router.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/porfanid/programming/BigData&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -91,8 +101,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
-        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -105,7 +115,10 @@
       <option name="presentableId" value="Default" />
       <updated>1742464675761</updated>
       <workItem from="1742464677192" duration="5269000" />
-      <workItem from="1742561251897" duration="324000" />
+      <workItem from="1742561251897" duration="1384000" />
+      <workItem from="1742666449730" duration="1418000" />
+      <workItem from="1742671309035" duration="610000" />
+      <workItem from="1743103905459" duration="1863000" />
     </task>
     <task id="LOCAL-00001" summary="Exercise 1 complete">
       <option name="closed" value="true" />
@@ -123,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742561540521</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a section 2 folder to test the owner">
+      <option name="closed" value="true" />
+      <created>1742561999241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742561999241</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercise 1 complete" />
     <MESSAGE value="Added code owners file to ajust the branch protection rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code owners file to ajust the branch protection rules" />
+    <MESSAGE value="Added a section 2 folder to test the owner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a section 2 folder to test the owner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -147,17 +169,17 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigData$exact_probability.coverage" NAME="exact_probability Coverage Results" MODIFIED="1742467069653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BigData$optimized_morris_counter.coverage" NAME="optimized_morris_counter Coverage Results" MODIFIED="1742469694424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_3" />
-    <SUITE FILE_PATH="coverage/BigData$calculate_path_probabilities.coverage" NAME="calculate_path_probabilities Coverage Results" MODIFIED="1742484431452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/d" />
+    <SUITE FILE_PATH="coverage/BigData$optimized_morris_counter.coverage" NAME="optimized_morris_counter Coverage Results" MODIFIED="1743105273672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_3" />
+    <SUITE FILE_PATH="coverage/BigData$calculate_path_probabilities.coverage" NAME="calculate_path_probabilities Coverage Results" MODIFIED="1743104537002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/d" />
     <SUITE FILE_PATH="coverage/BigData$efficient_probability.coverage" NAME="efficient_probability Coverage Results" MODIFIED="1742470794775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/b&amp;c" />
     <SUITE FILE_PATH="coverage/BigData$router.coverage" NAME="router Coverage Results" MODIFIED="1742491454634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_2" />
-    <SUITE FILE_PATH="coverage/BigData$improved_morris_counter.coverage" NAME="improved_morris_counter Coverage Results" MODIFIED="1742468644917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/b/1" />
+    <SUITE FILE_PATH="coverage/BigData$improved_morris_counter.coverage" NAME="improved_morris_counter Coverage Results" MODIFIED="1743104158922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/b/1" />
     <SUITE FILE_PATH="coverage/BigData$main.coverage" NAME="main Coverage Results" MODIFIED="1742489177650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_1/a" />
     <SUITE FILE_PATH="coverage/BigData$utils.coverage" NAME="utils Coverage Results" MODIFIED="1742491460446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_2" />
-    <SUITE FILE_PATH="coverage/BigData$compare_morris_methods.coverage" NAME="compare_morris_methods Coverage Results" MODIFIED="1742470592326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/b/2" />
+    <SUITE FILE_PATH="coverage/BigData$compare_morris_methods.coverage" NAME="compare_morris_methods Coverage Results" MODIFIED="1743104249095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/b/2" />
     <SUITE FILE_PATH="coverage/BigData$calculate_probability_optimized.coverage" NAME="calculate_probability_optimized Coverage Results" MODIFIED="1742470685333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/a" />
-    <SUITE FILE_PATH="coverage/BigData$calculate_probability.coverage" NAME="calculate_probability Coverage Results" MODIFIED="1742470678984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/a" />
+    <SUITE FILE_PATH="coverage/BigData$calculate_probability.coverage" NAME="calculate_probability Coverage Results" MODIFIED="1743104454087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/a" />
     <SUITE FILE_PATH="coverage/BigData$bloom_filter.coverage" NAME="bloom_filter Coverage Results" MODIFIED="1742489167443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_1/a" />
-    <SUITE FILE_PATH="coverage/BigData$morris_counter.coverage" NAME="morris_counter Coverage Results" MODIFIED="1742468553166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1" />
+    <SUITE FILE_PATH="coverage/BigData$morris_counter.coverage" NAME="morris_counter Coverage Results" MODIFIED="1743104064287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/a" />
   </component>
 </project>
