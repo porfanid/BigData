@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1febcd35-98a0-4f3a-853c-4535317213ce" name="Changes" comment="Added a section 2 folder to test the owner">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/ex_1/a/morris_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_1/a/morris_counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/ex_1/b/1/improved_morris_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_1/b/1/improved_morris_counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/ex_1/b/2/compare_morris_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_1/b/2/compare_morris_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/ex_2/a/calculate_probability.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_2/a/calculate_probability.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/ex_2/d/calculate_path_probabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_2/d/calculate_path_probabilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.png" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/ex_3/optimized_morris_counter.py" afterDir="false" />
+    <list default="true" id="1febcd35-98a0-4f3a-853c-4535317213ce" name="Changes" comment="Added plot results">
       <change beforePath="$PROJECT_DIR$/section_3/ex_2/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_3/ex_2/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +110,7 @@
       <workItem from="1742561251897" duration="1384000" />
       <workItem from="1742666449730" duration="1418000" />
       <workItem from="1742671309035" duration="610000" />
-      <workItem from="1743103905459" duration="1863000" />
+      <workItem from="1743103905459" duration="2554000" />
     </task>
     <task id="LOCAL-00001" summary="Exercise 1 complete">
       <option name="closed" value="true" />
@@ -144,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742561999241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added comments">
+      <option name="closed" value="true" />
+      <created>1743105782628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743105782628</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added plot results">
+      <option name="closed" value="true" />
+      <created>1743105812693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743105812693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +162,9 @@
     <MESSAGE value="Exercise 1 complete" />
     <MESSAGE value="Added code owners file to ajust the branch protection rules" />
     <MESSAGE value="Added a section 2 folder to test the owner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a section 2 folder to test the owner" />
+    <MESSAGE value="Added comments" />
+    <MESSAGE value="Added plot results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added plot results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
