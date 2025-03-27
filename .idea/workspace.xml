@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1febcd35-98a0-4f3a-853c-4535317213ce" name="Changes" comment="Added plot results">
-      <change beforePath="$PROJECT_DIR$/section_3/ex_2/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_3/ex_2/main.py" afterDir="false" />
+    <list default="true" id="1febcd35-98a0-4f3a-853c-4535317213ce" name="Changes" comment="Renamed the file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_3/ex_1/a/bloom_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_3/ex_1/a/bloom_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_3/ex_1/a/bloom_intersection.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_3/ex_1/a/bloom_intersection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_3/ex_1/a/generate_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_3/ex_1/a/generate_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_3/ex_1/a/hash_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/section_3/ex_1/a/hash_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +115,7 @@
       <workItem from="1742561251897" duration="1384000" />
       <workItem from="1742666449730" duration="1418000" />
       <workItem from="1742671309035" duration="610000" />
-      <workItem from="1743103905459" duration="2554000" />
+      <workItem from="1743103905459" duration="3603000" />
     </task>
     <task id="LOCAL-00001" summary="Exercise 1 complete">
       <option name="closed" value="true" />
@@ -152,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743105812693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Renamed the file">
+      <option name="closed" value="true" />
+      <created>1743109131959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743109131959</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Renamed the file">
+      <option name="closed" value="true" />
+      <created>1743109137435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743109137435</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,18 +185,8 @@
     <MESSAGE value="Added a section 2 folder to test the owner" />
     <MESSAGE value="Added comments" />
     <MESSAGE value="Added plot results" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added plot results" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Renamed the file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed the file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigData$exact_probability.coverage" NAME="exact_probability Coverage Results" MODIFIED="1742467069653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -184,12 +195,12 @@
     <SUITE FILE_PATH="coverage/BigData$efficient_probability.coverage" NAME="efficient_probability Coverage Results" MODIFIED="1742470794775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/b&amp;c" />
     <SUITE FILE_PATH="coverage/BigData$router.coverage" NAME="router Coverage Results" MODIFIED="1742491454634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_2" />
     <SUITE FILE_PATH="coverage/BigData$improved_morris_counter.coverage" NAME="improved_morris_counter Coverage Results" MODIFIED="1743104158922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/b/1" />
-    <SUITE FILE_PATH="coverage/BigData$main.coverage" NAME="main Coverage Results" MODIFIED="1742489177650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_1/a" />
+    <SUITE FILE_PATH="coverage/BigData$main.coverage" NAME="main Coverage Results" MODIFIED="1743112735974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_1/a" />
     <SUITE FILE_PATH="coverage/BigData$utils.coverage" NAME="utils Coverage Results" MODIFIED="1742491460446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_2" />
     <SUITE FILE_PATH="coverage/BigData$compare_morris_methods.coverage" NAME="compare_morris_methods Coverage Results" MODIFIED="1743104249095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/b/2" />
     <SUITE FILE_PATH="coverage/BigData$calculate_probability_optimized.coverage" NAME="calculate_probability_optimized Coverage Results" MODIFIED="1742470685333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/a" />
     <SUITE FILE_PATH="coverage/BigData$calculate_probability.coverage" NAME="calculate_probability Coverage Results" MODIFIED="1743104454087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_2/a" />
-    <SUITE FILE_PATH="coverage/BigData$bloom_filter.coverage" NAME="bloom_filter Coverage Results" MODIFIED="1742489167443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_1/a" />
+    <SUITE FILE_PATH="coverage/BigData$bloom_filter.coverage" NAME="bloom_filter Coverage Results" MODIFIED="1743112588899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_3/ex_1/a" />
     <SUITE FILE_PATH="coverage/BigData$morris_counter.coverage" NAME="morris_counter Coverage Results" MODIFIED="1743104064287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/section_1/ex_1/a" />
   </component>
 </project>
