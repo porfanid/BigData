@@ -1,0 +1,34 @@
+CountMin Sketch Algorithm Results
+================================
+
+ΠΑΡΑΜΕΤΡΟΙ
+---------
+Stream size: 1000000
+Epsilon (accuracy): 0.0002
+Delta (failure probability): 0.01
+Heavy hitter threshold: 0.001 (0.1%)
+Validation threshold: 0.0002 (0.02%)
+
+ΔΙΑΜΟΡΦΩΣΗ COUNTMIN
+------------------
+Width (w): 13592
+Depth (d): 5
+Memory usage: 67960 counters
+Prime number used (p): 10000019
+
+ΘΕΩΡΗΤΙΚΕΣ ΕΓΓΥΗΣΕΙΣ
+-------------------
+Με πιθανότητα τουλάχιστον 0.99, όλα τα στοιχεία που επιστρέφονται
+είναι τουλάχιστον 0.02%-hitters.
+
+ΑΠΟΤΕΛΕΣΜΑΤΑ
+------------
+Heavy hitter 1 (πραγματικό: 50000): εκτίμηση 50000
+Heavy hitter 2 (πραγματικό: 2000): εκτίμηση 2100
+
+[ΕΠΙΤΥΧΙΑ] Και τα δύο heavy hitters εντοπίστηκαν επιτυχώς!
+
+TOP-10 HEAVY HITTERS
+-----------------
+1. Item 4141402: estimated 50000 (5.0000%) (Heavy Hitter 1)
+2. Item 6216880: estimated 2100 (0.2100%) (Heavy Hitter 2)
