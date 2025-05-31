@@ -1,0 +1,138 @@
+Έλεγχος Διμερότητας Γραφημάτων - Ενότητα Γ
+============================================================
+=== ΔΟΚΙΜΕΣ ΕΠΑΛΗΘΕΥΣΗΣ ΑΛΓΟΡΙΘΜΩΝ ===
+Δοκιμή 1: Πλήρες διμερές γράφημα K_{2,2}
+Αποτέλεσμα: True (αναμενόμενο: True)
+
+Δοκιμή 2: Τρίγωνο (μη-διμερές γράφημα)
+Αποτέλεσμα: False (αναμενόμενο: False)
+
+Δοκιμή 3: Κύκλος μήκους 4 (διμερές)
+Αποτέλεσμα: True (αναμενόμενο: True)
+
+Δοκιμή 4: Κύκλος μήκους 5 (μη-διμερές)
+Αποτέλεσμα: False (αναμενόμενο: False)
+
+Δοκιμή 5: Σύγκριση αλγορίθμων σε τυχαία γραφήματα
+n=10, p=0.1: Linear=False, Sublinear=False ✓
+n=10, p=0.5: Linear=False, Sublinear=False ✓
+n=10, p=0.8: Linear=False, Sublinear=False ✓
+
+============================================================
+=== ΆΣΚΗΣΗ 1: Αλγόριθμος Γραμμικού Χρόνου ===
+Τρέχουμε πείραμα με n=100, 73 διαφορετικά p values
+Αυτό μπορεί να πάρει λίγα λεπτά...
+p = 1.000000, Bipartite probability = 0.000
+p = 0.909091, Bipartite probability = 0.000
+p = 0.826446, Bipartite probability = 0.000
+p = 0.751315, Bipartite probability = 0.000
+p = 0.683013, Bipartite probability = 0.000
+p = 0.620921, Bipartite probability = 0.000
+p = 0.564474, Bipartite probability = 0.000
+p = 0.513158, Bipartite probability = 0.000
+p = 0.466507, Bipartite probability = 0.000
+p = 0.424098, Bipartite probability = 0.000
+p = 0.385543, Bipartite probability = 0.000
+p = 0.350494, Bipartite probability = 0.000
+p = 0.318631, Bipartite probability = 0.000
+p = 0.289664, Bipartite probability = 0.000
+p = 0.263331, Bipartite probability = 0.000
+p = 0.239392, Bipartite probability = 0.000
+p = 0.217629, Bipartite probability = 0.000
+p = 0.197845, Bipartite probability = 0.000
+p = 0.179859, Bipartite probability = 0.000
+p = 0.163508, Bipartite probability = 0.000
+p = 0.148644, Bipartite probability = 0.000
+p = 0.135131, Bipartite probability = 0.000
+p = 0.122846, Bipartite probability = 0.000
+p = 0.111678, Bipartite probability = 0.000
+p = 0.101526, Bipartite probability = 0.000
+p = 0.092296, Bipartite probability = 0.000
+p = 0.083905, Bipartite probability = 0.000
+p = 0.076278, Bipartite probability = 0.000
+p = 0.069343, Bipartite probability = 0.000
+p = 0.063039, Bipartite probability = 0.000
+p = 0.057309, Bipartite probability = 0.000
+p = 0.052099, Bipartite probability = 0.000
+p = 0.047362, Bipartite probability = 0.000
+p = 0.043057, Bipartite probability = 0.000
+p = 0.039143, Bipartite probability = 0.000
+p = 0.035584, Bipartite probability = 0.000
+p = 0.032349, Bipartite probability = 0.000
+p = 0.029408, Bipartite probability = 0.000
+p = 0.026735, Bipartite probability = 0.000
+p = 0.024304, Bipartite probability = 0.000
+p = 0.022095, Bipartite probability = 0.000
+p = 0.020086, Bipartite probability = 0.010
+p = 0.018260, Bipartite probability = 0.020
+p = 0.016600, Bipartite probability = 0.060
+p = 0.015091, Bipartite probability = 0.200
+p = 0.013719, Bipartite probability = 0.260
+p = 0.012472, Bipartite probability = 0.380
+p = 0.011338, Bipartite probability = 0.580
+p = 0.010307, Bipartite probability = 0.700
+p = 0.009370, Bipartite probability = 0.780
+p = 0.008519, Bipartite probability = 0.870
+p = 0.007744, Bipartite probability = 0.880
+p = 0.007040, Bipartite probability = 0.890
+p = 0.006400, Bipartite probability = 0.960
+p = 0.005818, Bipartite probability = 0.960
+p = 0.005289, Bipartite probability = 0.970
+p = 0.004809, Bipartite probability = 1.000
+p = 0.004371, Bipartite probability = 0.990
+p = 0.003974, Bipartite probability = 0.980
+p = 0.003613, Bipartite probability = 1.000
+p = 0.003284, Bipartite probability = 1.000
+p = 0.002986, Bipartite probability = 0.990
+p = 0.002714, Bipartite probability = 1.000
+p = 0.002468, Bipartite probability = 1.000
+p = 0.002243, Bipartite probability = 0.990
+p = 0.002039, Bipartite probability = 1.000
+p = 0.001854, Bipartite probability = 1.000
+p = 0.001685, Bipartite probability = 1.000
+p = 0.001532, Bipartite probability = 1.000
+p = 0.001393, Bipartite probability = 1.000
+p = 0.001266, Bipartite probability = 1.000
+p = 0.001151, Bipartite probability = 1.000
+p = 0.001046, Bipartite probability = 1.000
+Ολοκληρώθηκε σε 6.50 δευτερόλεπτα
+
+=== ΆΣΚΗΣΗ 2: Αλγόριθμος Υπογραμμικού Χρόνου ===
+Τρέχουμε πείραμα με n=1000, 11 διαφορετικά p values
+Χρησιμοποιούμε αλγόριθμο υπογραμμικού χρόνου...
+p = 1.000000, Bipartite probability = 0.000
+p = 0.500000, Bipartite probability = 0.000
+p = 0.250000, Bipartite probability = 0.000
+p = 0.125000, Bipartite probability = 0.000
+p = 0.062500, Bipartite probability = 0.000
+p = 0.031250, Bipartite probability = 0.000
+p = 0.015625, Bipartite probability = 0.000
+p = 0.007812, Bipartite probability = 0.000
+p = 0.003906, Bipartite probability = 0.000
+p = 0.001953, Bipartite probability = 0.000
+p = 0.000977, Bipartite probability = 0.690
+Ολοκληρώθηκε σε 1142.00 δευτερόλεπτα
+
+Θέλετε να τρέξετε δοκιμές για n=10000; (y/n)
+
+=== ΔΟΚΙΜΕΣ ΜΕΓΑΛΗΣ ΚΛΙΜΑΚΑΣ (n=10000) ===
+Τρέχουμε πείραμα με n=10000 για p ∈ [1.0, 0.5, 0.25, 0.125]
+Χρησιμοποιούμε αλγόριθμο υπογραμμικού χρόνου...
+p = 1.000000, Bipartite probability = 0.000
+p = 0.500000, Bipartite probability = 0.000
+p = 0.250000, Bipartite probability = 0.000
+p = 0.125000, Bipartite probability = 0.000
+Ολοκληρώθηκε σε 4805.04 δευτερόλεπτα
+p = 1.000: Bipartite probability = 0.000
+p = 0.500: Bipartite probability = 0.000
+p = 0.250: Bipartite probability = 0.000
+p = 0.125: Bipartite probability = 0.000
+
+============================================================
+=== ΣΥΓΚΡΙΣΗ ΚΑΙ ΣΥΜΠΕΡΑΣΜΑΤΑ ===
+Παρατηρήσεις:
+1. Για μεγάλα p: Τα γραφήματα είναι πυκνά → σπάνια διμερή
+2. Για μικρά p: Τα γραφήματα είναι αραιά → συχνά διμερή
+3. Υπάρχει απότομη μετάβαση γύρω από ένα κρίσιμο p (phase transition)
+4. Ο αλγόριθμος υπογραμμικού χρόνου είναι ταχύτερος για μεγάλα n και μεγάλα p
+5. Το κρίσιμο p μικραίνει καθώς το n αυξάνεται
