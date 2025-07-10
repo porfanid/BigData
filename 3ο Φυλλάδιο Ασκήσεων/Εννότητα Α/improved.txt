@@ -1,0 +1,123 @@
+Testing Graph Connectivity Implementation
+==================================================
+Test graph connectivity: False
+(Should be False - graph has two components)
+============================================================
+ΕΝΟΤΗΤΑ Α: ΕΛΕΓΧΟΣ ΣΥΝΕΚΤΙΚΟΤΗΤΑΣ ΓΡΑΦΗΜΑΤΟΣ
+Δ=10 (μέγιστος βαθμός) - ΠΛΗΡΗ ΑΚΡΙΒΕΙΑ + ΠΟΛΥΠΥΡΗΝΗ
+Διαθέσιμοι πυρήνες: 4
+============================================================
+=== Testing Basic Implementation (n=100) - PARALLEL ===
+Run 1: 312 edges needed
+Run 2: 218 edges needed
+Run 3: 217 edges needed
+Run 4: 217 edges needed
+Run 5: 189 edges needed
+Run 6: 207 edges needed
+Run 7: 331 edges needed
+Run 8: 219 edges needed
+Run 9: 251 edges needed
+Run 10: 208 edges needed
+Average edges needed for n=100: 236.9
+Range: 189 - 331
+Parallel execution time: 0.07s using 4 cores
+✓ Results are in expected range (200-500)
+
+=== Experiment 1: Simple Sublinear Algorithm (n=100,000) ===
+Running simple sublinear experiment...
+Worker 0: Insertion 25000, 1 calls
+Worker 0: Insertion 50000, 1 calls
+Worker 0: Insertion 75000, 1 calls
+Worker 0: Insertion 100000, 3 calls
+Worker 0: Insertion 125000, 5 calls
+Worker 0: Insertion 150000, 5 calls
+Worker 0: Insertion 175000, 5 calls
+Worker 0: Insertion 200000, 5 calls
+Worker 0: Insertion 225000, 5 calls
+Worker 0: Insertion 250000, 5 calls
+Plot saved as 'simple_sublinear_n100k.png'
+Simple sublinear experiment completed in 13085.5 seconds
+
+=== Experiment 2: Refined Sublinear Algorithm ===
+Worker 0: Insertion 25000, 1 calls
+Worker 0: Insertion 50000, 2 calls
+Worker 0: Insertion 75000, 4 calls
+Worker 1: Insertion 25000, 1 calls
+Worker 1: Insertion 50000, 1 calls
+Worker 1: Insertion 75000, 1 calls
+Worker 1: Insertion 100000, 1 calls
+Worker 1: Insertion 125000, 1 calls
+Worker 1: Insertion 150000, 1 calls
+Worker 1: Insertion 175000, 1 calls
+Worker 0: Insertion 100000, 5 calls
+Worker 1: Insertion 200000, 1 calls
+Worker 1: Insertion 225000, 1 calls
+Worker 1: Insertion 250000, 2 calls
+Worker 1: Insertion 275000, 1 calls
+Worker 1: Insertion 300000, 2 calls
+Worker 1: Insertion 325000, 2 calls
+Worker 1: Insertion 350000, 1 calls
+Worker 1: Insertion 375000, 2 calls
+Worker 1: Insertion 400000, 1 calls
+Worker 1: Insertion 425000, 2 calls
+Worker 1: Insertion 450000, 2 calls
+Worker 1: Insertion 475000, 2 calls
+Worker 1: Insertion 500000, 2 calls
+Worker 1: Insertion 525000, 1 calls
+Worker 0: Insertion 125000, 1 calls
+Worker 1: Insertion 550000, 3 calls
+Worker 1: Insertion 575000, 1 calls
+Worker 1: Insertion 600000, 2 calls
+Worker 1: Insertion 625000, 2 calls
+Worker 1: Insertion 650000, 3 calls
+Worker 1: Insertion 675000, 2 calls
+Worker 0: Insertion 150000, 5 calls
+Worker 1: Insertion 700000, 4 calls
+Worker 1: Insertion 725000, 2 calls
+Worker 0: Insertion 175000, 5 calls
+Worker 1: Insertion 750000, 2 calls
+Worker 1: Insertion 775000, 3 calls
+Worker 0: Insertion 200000, 5 calls
+Worker 1: Insertion 800000, 2 calls
+Worker 0: Insertion 225000, 5 calls
+Worker 1: Insertion 825000, 1 calls
+Worker 0: Insertion 250000, 5 calls
+Worker 1: Insertion 850000, 4 calls
+Worker 0: Insertion 275000, 5 calls
+Worker 1: Insertion 875000, 4 calls
+Worker 0: Insertion 300000, 5 calls
+Worker 1: Insertion 900000, 4 calls
+Worker 1: Insertion 925000, 4 calls
+Worker 1: Insertion 950000, 2 calls
+Worker 1: Insertion 975000, 4 calls
+Worker 1: Insertion 1000000, 1 calls
+Worker 1: Insertion 1025000, 1 calls
+Worker 1: Insertion 1050000, 4 calls
+Worker 1: Insertion 1075000, 2 calls
+Worker 1: Insertion 1100000, 4 calls
+Worker 1: Insertion 1125000, 2 calls
+Worker 1: Insertion 1150000, 4 calls
+Worker 1: Insertion 1175000, 4 calls
+Worker 1: Insertion 1200000, 4 calls
+Worker 1: Insertion 1225000, 4 calls
+Worker 1: Insertion 1250000, 3 calls
+Worker 1: Insertion 1275000, 4 calls
+Worker 1: Insertion 1300000, 4 calls
+Worker 1: Insertion 1325000, 4 calls
+Worker 1: Insertion 1350000, 2 calls
+Worker 1: Insertion 1375000, 4 calls
+Worker 1: Insertion 1400000, 4 calls
+Worker 1: Insertion 1425000, 4 calls
+Worker 1: Insertion 1450000, 2 calls
+Worker 1: Insertion 1475000, 4 calls
+Worker 1: Insertion 1500000, 4 calls
+Worker 1: Insertion 1525000, 4 calls
+Worker 1: Insertion 1550000, 4 calls
+Worker 1: Insertion 1575000, 4 calls
+Worker 1: Insertion 1600000, 4 calls
+Worker 1: Insertion 1625000, 4 calls
+Worker 1: Insertion 1650000, 4 calls
+Worker 1: Insertion 1675000, 4 calls
+Worker 1: Insertion 1700000, 4 calls
+
+Πειράματα διακόπηκαν από τον χρήστη

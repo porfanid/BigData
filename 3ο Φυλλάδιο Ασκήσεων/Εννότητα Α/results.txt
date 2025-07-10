@@ -1,0 +1,62 @@
+Testing Graph Connectivity Implementation
+==================================================
+Test graph connectivity: False
+(Should be False - graph has two components)
+============================================================
+ΕΝΟΤΗΤΑ Α: ΕΛΕΓΧΟΣ ΣΥΝΕΚΤΙΚΟΤΗΤΑΣ ΓΡΑΦΗΜΑΤΟΣ
+Δ=10 (μέγιστος βαθμός)
+============================================================
+=== Testing Basic Implementation (n=100) ===
+Run 1: 252 edges needed
+Run 2: 205 edges needed
+Run 3: 221 edges needed
+Run 4: 236 edges needed
+Run 5: 332 edges needed
+Run 6: 254 edges needed
+Run 7: 245 edges needed
+Run 8: 233 edges needed
+Run 9: 278 edges needed
+Run 10: 191 edges needed
+Average edges needed for n=100: 244.7
+Range: 191 - 332
+✓ Results are in expected range (200-500)
+
+=== Experiment 1: Simple Sublinear Algorithm (n=100,000) ===
+Running simple sublinear experiment...
+Insertion 25000: 1 calls, 0.3s elapsed
+Insertion 50000: 1 calls, 0.6s elapsed
+Insertion 75000: 2 calls, 23.2s elapsed
+Insertion 100000: 1 calls, 579.8s elapsed
+Insertion 125000: 5 calls, 2086.3s elapsed
+Insertion 150000: 5 calls, 4515.1s elapsed
+Insertion 175000: 5 calls, 8296.8s elapsed
+Insertion 200000: 3 calls, 12168.7s elapsed
+Insertion 225000: 5 calls, 17921.8s elapsed
+Insertion 250000: 5 calls, 23578.5s elapsed
+Plot saved as 'simple_sublinear_n100k.png'
+Simple sublinear experiment completed in 23583.4 seconds
+
+=== Experiment 2: Refined Sublinear Algorithm ===
+Testing refined algorithm with n=100,000, 300,000 insertions...
+Insertion 30000: 1 calls, 0.5s elapsed
+Insertion 60000: 1 calls, 1.9s elapsed
+Insertion 90000: 2 calls, 199.5s elapsed
+Insertion 120000: 5 calls, 1512.3s elapsed
+Insertion 150000: 5 calls, 4310.1s elapsed
+Insertion 180000: 5 calls, 8430.4s elapsed
+Insertion 210000: 5 calls, 13558.1s elapsed
+Insertion 240000: 5 calls, 19375.0s elapsed
+Insertion 270000: 5 calls, 26048.1s elapsed
+Insertion 300000: 5 calls, 32854.5s elapsed
+Plot saved as 'refined_sublinear_n100k.png'
+Refined algorithm (n=100k) completed in 32859.0 seconds
+
+Testing refined algorithm with n=1,000,000, Δ=100, 2,000,000 insertions...
+Insertion 200000: 2 calls, 4.7s elapsed
+Insertion 400000: 2 calls, 8.4s elapsed
+Insertion 600000: 1 calls, 94.0s elapsed
+Insertion 800000: 1 calls, 11959.9s elapsed
+Insertion 1000000: 4 calls, 89837.2s elapsed
+Insertion 1200000: 4 calls, 227303.2s elapsed
+
+Πειράματα διακόπηκαν από τον χρήστη

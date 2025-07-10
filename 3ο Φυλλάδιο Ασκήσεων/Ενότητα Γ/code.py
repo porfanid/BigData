@@ -339,10 +339,10 @@ def run_exercise_2_sublinear_algorithm():
     
     print(f"Ολοκληρώθηκε σε {end_time - start_time:.2f} δευτερόλεπτα")  # Εκτύπωση χρόνου εκτέλεσης
    
-   # Δημιουργία γραφικών παραστάσεων
-   checker.create_probability_plots(p_values, probabilities, f"n={num_nodes}, Sublinear Time Algorithm")
+    # Δημιουργία γραφικών παραστάσεων
+    checker.create_probability_plots(p_values, probabilities, f"n={num_nodes}, Sublinear Time Algorithm")
    
-   return p_values, probabilities  # Επιστροφή αποτελεσμάτων
+    return p_values, probabilities  # Επιστροφή αποτελεσμάτων
 
 def run_large_scale_experiments():
    """
